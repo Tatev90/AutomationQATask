@@ -1,4 +1,4 @@
-from Location.testsfiles import browser
+from testsfiles import browser
 
 
 # scroll to submit button
@@ -23,7 +23,7 @@ def setEmail(email):
 def choosefile():
     choose_file = browser.browser.find_element_by_xpath(
         "//*[@id='wpcf7-f3772-o2']/form/div[2]/div[1]/div[4]/p/span/div/input")
-    choose_file.send_keys("/home/tatev/PycharmProjects/AutomationTest/Location/pages/TatevMelikyanCV.pdf")
+    choose_file.send_keys("/home/tatev/PycharmProjects/AutomationTest/pages/TatevMelikyanCV.pdf")
 
 
 def submit():

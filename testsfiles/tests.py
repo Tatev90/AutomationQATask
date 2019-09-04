@@ -1,6 +1,6 @@
 import time
 
-from Location.pages import careerspage, homepage, automationqapage
+from pages import careerspage, homepage, automationqapage
 
 careersCount = homepage.careersCount()
 print("Careers count in home page is: " + careersCount)

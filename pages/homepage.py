@@ -1,7 +1,7 @@
 # Get careers count from the right side of the Careers Section
 import time
 
-from Location.testsfiles import browser
+from testsfiles import browser
 
 
 def careersCount():

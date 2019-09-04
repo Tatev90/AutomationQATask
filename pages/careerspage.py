@@ -1,6 +1,6 @@
 import time
 
-from Location.testsfiles import browser
+from testsfiles import browser
 
 time.sleep(2)
 
